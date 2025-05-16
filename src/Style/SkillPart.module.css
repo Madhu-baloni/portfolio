@@ -1,0 +1,48 @@
+.title {
+    padding: 1rem;
+    font-size: 2rem !important;
+    font-weight: bolder !important;
+    color: #462037;
+}
+.card {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.card:hover .image {
+  cursor: pointer;
+  transform: scale(1.05);
+  opacity: 0;
+}
+.image {
+    height: 10rem;
+}
+/* .image:hover{
+    opacity: 0;
+} */
+.card_text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: #462037;
+  font-size: 2rem !important;
+}
+
+.card:hover .card_text {
+  opacity: 1;
+}
+
+@media screen and (max-width : 600px){
+    .title {
+        text-align: center;
+    }
+    .grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}

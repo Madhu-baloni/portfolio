@@ -1,0 +1,16 @@
+.box {
+  margin-top: 15rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(rgba(85, 29, 29, 0.76), transparent);
+  color: white;
+}
+.title {
+    font-weight: bolder !important;
+    font-size: 1.2rem !important;
+}
+.link {
+    color: white;
+}
