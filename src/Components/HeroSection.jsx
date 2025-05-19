@@ -32,7 +32,11 @@ function HeroSection() {
                 vitae iure alias?
               </Typography>
 
-              <Stack direction="row" gap={3} sx={{ p: 1, mt: 3 }}>
+              <Stack
+                direction="row"
+                gap={{ xs: '3.3rem', md: 3 }}
+                sx={{ p: 1, mt: 3 }}
+              >
                 <Box className={styles.box}>
                   <Link to="https://github.com/Madhu-baloni" target="_blank">
                     <GitHubIcon className={styles.icon} />

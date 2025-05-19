@@ -32,37 +32,53 @@ function ContacPage() {
           >
             Contact Form
           </Typography>
-          <Grid container spacing={3}>
-            <Grid size={{ xs: 6, md: 6 }}>
-              <TextField
-                label="Full Name"
-                type="text"
-                fullWidth
-                sx={{ mt: 3 }}
-              />
+          <form action="https://formspree.io/f/xdkgbqad" method="POST">
+            <Grid container spacing={3}>
+              <Grid size={{ xs: 6, md: 6 }}>
+                <TextField
+                  label="Full Name"
+                  type="text"
+                  name="name"
+                  required
+                  fullWidth
+                  sx={{ mt: 3 }}
+                />
+              </Grid>
+              <Grid size={{ xs: 6, md: 6 }} sx={{ mt: 3 }}>
+                <TextField
+                  label="Enter email"
+                  type="email"
+                  name="email"
+                  required
+                  fullWidth
+                />
+              </Grid>
+              <Grid size={{ xs: 12, md: 12 }}>
+                <TextField
+                  label="Message"
+                  type="text"
+                  name="meassge"
+                  required
+                  fullWidth
+                />
+              </Grid>
+              <Button
+                sx={{
+                  background: "#462037",
+                  color: "white",
+                  width: "10rem",
+                  p: "1rem",
+                  fontWeight: "bold",
+                  fontSize: "1rem",
+                  mt: "2rem",
+                }}
+                type="submit"
+                value="send"
+              >
+                Submit
+              </Button>
             </Grid>
-            <Grid size={{ xs: 6, md: 6 }} sx={{ mt: 3 }}>
-              <TextField label="Enter email" type="email" fullWidth />
-            </Grid>
-            <Grid size={{ xs: 12, md: 12 }}>
-              <TextField label="Message" type="text" fullWidth />
-            </Grid>
-          </Grid>
-          {/* <Box sx ={{display : 'flex',justifyContent:'center',alignContent:'center'}}> */}
-          <Button
-            sx={{
-              background: "#462037",
-              color: "white",
-              width: "10rem",
-              p: "1rem",
-              fontWeight: "bold",
-              fontSize: "1rem",
-              mt: "2rem",
-            }}
-          >
-            Submit
-          </Button>
-          {/* </Box> */}
+          </form>
         </Stack>
       </Container>
     </>

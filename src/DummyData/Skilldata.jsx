@@ -4,7 +4,7 @@ const skills = [
     title: "HTML5",
   },
   {
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png",
+    logo: "https://cdn3d.iconscout.com/3d/free/thumb/free-css3-3d-logo-download-in-png-blend-fbx-gltf-file-formats--html-language-programming-brand-vol-1-pack-logos-3640300.png",
     title: "CSS3",
   },
   {

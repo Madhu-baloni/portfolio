@@ -1,8 +1,9 @@
 .box {
-  margin-top: 10rem;
+  margin-top: 4.1rem;
 }
 .mainheading {
   padding: 1rem;
+  margin: 2;
   font-size: 2rem !important;
   font-weight: bolder !important;
   color: #462037;

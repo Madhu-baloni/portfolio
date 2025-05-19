@@ -1,8 +1,8 @@
 .title {
-    padding: 1rem;
-    font-size: 2rem !important;
-    font-weight: bolder !important;
-    color: #462037;
+  padding: 1rem;
+  font-size: 2.2rem !important;
+  font-weight: bolder !important;
+  color: #462037;
 }
 .card {
   height: 15rem;
@@ -18,11 +18,8 @@
   opacity: 0;
 }
 .image {
-    height: 10rem;
+  height: 10rem;
 }
-/* .image:hover{
-    opacity: 0;
-} */
 .card_text {
   position: absolute;
   opacity: 0;
@@ -35,14 +32,13 @@
   opacity: 1;
 }
 
-@media screen and (max-width : 600px){
-    .title {
-        text-align: center;
-    }
-    .grid {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-   
+@media screen and (max-width: 600px) {
+  .title {
+    text-align: center;
+  }
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

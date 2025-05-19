@@ -16,11 +16,10 @@ function AboutPage() {
   return (
     <>
       <Container className={styles.box}>
-        <Box>
-          <Typography className={styles.mainheading}>
-            Experience & Education
-          </Typography>
-        </Box>
+        <Typography className={styles.mainheading}>
+          Experience & Education
+        </Typography>
+
         {data.map((item) => (
           <Card className={styles.card}>
             <Grid container spacing={{ xs: 1, md: 15 }}>
@@ -48,8 +47,6 @@ function AboutPage() {
             </Grid>
           </Card>
         ))}
-
-        {/* <Button sx={{  mt: 3, color:'black' }}>Download Resume </Button> */}
         <SkillsPart />
       </Container>
     </>

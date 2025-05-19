@@ -32,8 +32,8 @@ function NavbarPart() {
 
   return (
     <>
-      <Container>
-        <AppBar component="nav" className={styles.navbar}>
+      <AppBar component="nav" className={styles.navbar}>
+        <Container>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -62,7 +62,7 @@ function NavbarPart() {
               </Typography>
             </Link>
 
-            <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            <Box sx={{ display: { xs: "none", sm: "block" }, ml: "40.9rem" }}>
               {navItems.map((page) => (
                 <Button
                   key={page}
@@ -91,8 +91,8 @@ function NavbarPart() {
               ))}
             </Menu>
           </Toolbar>
-        </AppBar>
-      </Container>
+        </Container>
+      </AppBar>
     </>
   );
 }
