@@ -21,7 +21,7 @@ const data = [
       "I scored 7.8 CGPA ",
       "I participated in a 3 day Ai workshop and gained knowledge on model tarining and testing.",
       "I attended a Meta Verse workshop learned about Meta Spark Studio and created filters",
-      "I achieved 2nd position in the holi carnival organized by the Meta Verse team and Digital Media Club."
+      "I achieved 2nd position in the holi carnival organized by the Meta Verse team and Digital Media Club.",
     ],
   },
   {
@@ -43,9 +43,9 @@ const data = [
     designation: "Science",
     time_period: "2018",
     description: [
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
-      "Lorem ipsum dolor sit amet.",
+      "Scored first division.",
+      "Represented GIC Khadari khadagmaf Rishikesh Shyampur in Kho-Kho at state level .",
+      "Won first prize in Dance Competition.",
     ],
   },
 ];
