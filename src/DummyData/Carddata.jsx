@@ -2,6 +2,7 @@ import firstp from "../assets/firstp.png";
 import secondp from "../assets/secondp.png";
 import threep from "../assets/threep.png";
 import fourp from "../assets/fourp.png";
+import fivep from "../assets/fivep.png";
 const projects = [
   {
     image: firstp,
@@ -38,6 +39,15 @@ const projects = [
     techstack: [1, 2, 3],
     github: "https://github.com/Madhu-baloni/react-ui-project",
     host_site: "https://rack09.netlify.app/",
+  },
+  {
+    image: fivep,
+    title: "math-hub",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos, repellendus dignissimos, perspiciatis accusantium explicabo voluptas consectetur totam laboriosam non nihil! Sit, tempora ut! Excepturi, tenetur. Quo labore mollitia molestiae.",
+    techstack: [1, 2, 3],
+    github: "https://github.com/Madhu-baloni/math_hub",
+    host_site: "https://operationstation.netlify.app/",
   },
 ];
 export default projects;
