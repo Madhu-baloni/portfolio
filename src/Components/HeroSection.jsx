@@ -7,6 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import { Link } from "react-router-dom";
+
 function HeroSection() {
   return (
     <>
@@ -19,6 +20,7 @@ function HeroSection() {
                 className={styles.img}
               />
             </Grid>
+
             <Grid size={{ xs: 12, md: 8 }}>
               <Typography className={styles.name}>I'm Madhu Baloni</Typography>
               <Typewriter
@@ -26,10 +28,9 @@ function HeroSection() {
                 text="Frontend Developer"
                 delay={500}
               />
+
               <Typography className={styles.discription}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                nam vitae consectetur nemo voluptates. Repellat laborum placeat
-                vitae iure alias?
+                As a fresher, I bring a strong passion for web development and a solid understanding of essential technologies like HTML, CSS, and JavaScript. I’m a quick learner, eager to apply my skills to real-world projects while continuing to grow and adapt to new challenges. My enthusiasm for creating user-friendly, responsive websites, along with my problem-solving abilities, makes me confident that I can add value to your team.
               </Typography>
 
               <Stack
@@ -42,6 +43,7 @@ function HeroSection() {
                     <GitHubIcon className={styles.icon} />
                   </Link>
                 </Box>
+
                 <Box className={styles.box}>
                   <Link
                     to="https://in.linkedin.com/in/madhu-baloni-47baa1227"
@@ -50,11 +52,13 @@ function HeroSection() {
                     <LinkedInIcon className={styles.icon} />
                   </Link>
                 </Box>
+
                 <Box className={styles.box}>
                   <Link to="mailto:balonimadhu@gmail.com" target="_blank">
                     <EmailIcon className={styles.icon} />
                   </Link>
                 </Box>
+
                 <Box className={styles.box}>
                   <Link
                     to="http://www.instagram.com/balonimadhu"
@@ -63,6 +67,7 @@ function HeroSection() {
                     <InstagramIcon className={styles.icon} />
                   </Link>
                 </Box>
+
               </Stack>
               <Box className={styles.box1}>
                 <Button
