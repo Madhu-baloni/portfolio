@@ -22,7 +22,7 @@ function HeroSection() {
             </Grid>
 
             <Grid size={{ xs: 12, md: 8 }}>
-              <Typography className={styles.name}>I'm Madhu Baloni</Typography>
+              <Typography className={styles.name}>I'm Madhu  Baloni</Typography>
               <Typewriter
                 className={styles.post}
                 text="Frontend Developer"
